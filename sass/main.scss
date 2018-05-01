@@ -25,7 +25,7 @@ body {
 		to right bottom,
 		rgba($color-main, 0.8),
 		rgba($color-second, 0.8)),
-		url(../images/cricketnz.jpg);
+		url(../images/cricketsmall.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -80,7 +80,6 @@ body {
 		height: 7.2rem;
 		padding-top: 3rem;
 		padding-right: 2rem;
-		border-bottom: .1rem solid $colo-ui-bg;
 		text-align: right;
 		background-color: $color-btn-border;
 		margin: .3rem 0 .3rem .2rem;
@@ -137,6 +136,7 @@ body {
 				border-left: .2rem solid $colo-ui-bg !important;
 			    border-bottom: .1rem solid $colo-ui-bg;
 		    	transform: translateY(.1rem) translateX(-.1rem);/*Move down*/
+		    	color: #c2ffd6;
 			}
 
 			&:last-child {
@@ -149,7 +149,7 @@ body {
 			}
 
 			&:hover {
-				pointer: cursor;
+				cursor: pointer;
 			}
 		}
 	}
@@ -157,6 +157,10 @@ body {
 
 .operator {
 	background-color: orange;
+
+	&:active {
+		color: #ffedcb;
+	}
 }
 
 .selected {
@@ -173,34 +177,3 @@ body {
 	text-align: center;
 	font-size: 1.1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
